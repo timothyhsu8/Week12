@@ -1,0 +1,54 @@
+body{
+    background-color:lightgreen;
+}
+
+.square{
+    border: 2px solid black;
+    width:100px;
+    height:100px;
+    margin:10px;
+}
+
+.buttonstyle{
+    font-size:30px;
+    margin: auto;
+    float: initial;
+    cursor: pointer;
+    border-radius: 4px;
+    width:100%;
+}
+.squaretransparent{
+    border: 2px solid black;
+    width:100px;
+    height:100px;
+    margin:10px;
+    opacity: 0.5;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: nowrap;
+    border:2px solid black;
+    padding:150px;
+    background-size: contain;
+    background-repeat: repeat;
+    text-align:center;
+}
+
+.boxdiv{
+    border:2px solid black;
+    padding:150px;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.buttonposition{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.responsive{
+    width:100%;
+    height:auto;
+}
